@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+html,body,h1,h2,h3,h4,h5,p,dl,dt,dd,ul,ol,li,table,textarea,iframe,form,pre {
+  margin:0;
+  padding:0;
+  font-size:100%;
+}
+a{
+  text-decoration: none;
+}
+div{
+	display: block;
+}
+body{
+  font-family: "Segoe UI","Arial";
+  min-width: 420px;
+  min-height: 675px;
+  background: url("images/pattern.jpg") repeat;
+  color: #444;
+  -webkit-text-size-adjust: 100%;
+}
+#container{
+	width: 100%;
+	background: url("images/threads.png") repeat-x 0 20px;
+	overflow: hidden;
+	height: auto;
+}
+#wrapper{
+
+	font-size: 15px;
+	margin: 30px auto;
+	width: 420px;
+	height: 100%;
+	overflow: hidden;
+
+}
+#title{
+	font-family: "Georgia","Arial";
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	margin: 25px auto 35px;
+}
+#formList{
+	width: 100%;
+}
+.form{
+	color: rgb(157, 157, 157);
+	margin-bottom: 12px;
+}
+#container input{
+	margin : 0 auto;
+}
+#container input[type="text"],[type="password"]{
+	background: url("images/textbox.png") no-repeat;
+	width: 390px;
+	display: block;
+	height: 44px;
+	margin: 0 5px 6px 0;
+	padding: 0 15px;
+	border: 0;
+	vertical-align: middle;
+
+}
+#container label.error{
+	display: block;
+	line-height: 1.2;
+	margin-top: 0.5em;
+	color: #c00;
+	font-weight: bold;
+	font-size: 87.5%;
+
+}
+#container label.error:before{
+	display: inline-block;
+	content:"!";
+	margin-right: 5px;
+	padding: 0 6px;
+	border-radius: 4px;
+	color: white;
+	background-color: #c00;
+}
+#container input[type="password"]{
+	background: url("images/textbox.png") no-repeat;
+	width: 390px;
+	display: block;
+	height: 44px;
+	margin: 0 5px 6px 0;
+	padding: 0 15px;
+	border: 0;
+	vertical-align: middle;
+
+}
+#container input:focus{
+	text-decoration: none;
+	border: none;
+}
+
+#container .birthday .subTitle{
+	margin: 0 0 5px 10px;
+	color: gray;
+}
+#container select{
+	
+	width: 129px;
+	height: 40px;
+	margin: 0 5px;
+	padding: 7px;
+	border: 2px solid #d5d5d5;
+	border-radius: 17px;
+	vertical-align: middle;
+	float: left;
+	color: rgb(157, 157, 157);
+
+}
+
+#container #selectGender{
+	clear: left;
+	margin: 50px 0 35px 10px;
+	color: gray;
+}
+#container #selectGender .label{
+	margin: 0 10px;
+}
+#container .sendForm{
+	text-align: center;
+}
+#container #contactSubmit{
+	width: 200px;
+	height: 36px;
+	color: white;
+	padding: 0;
+	margin-bottom: 35px;
+	border: none;
+	background: #eb6877;
+	border-bottom: solid red 3px; 
+	border-radius: 20px;
+	text-transform: uppercase;
+}
+#container #contactSubmit:active{
+	border: none;
+	border-top: red;
+}
+#footer{
+	height: 20px;
+	background: url("images/threads.png") repeat-x ;
+}
+
+
