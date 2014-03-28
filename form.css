@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+html,body,h1,h2,h3,h4,h5,p,dl,dt,dd,ul,ol,li,table,textarea,iframe,form,pre {
+  margin:0;
+  padding:0;
+  font-size:100%;
+}
+a{
+  text-decoration: none;
+}
+li{
+	text-decoration: none;
+}
+div{
+	display: block;
+}
+body{
+  font-family: "Segoe UI","Arial";
+  min-width: 500px;
+  min-height: 675px;
+  background: url("images/pattern.jpg") repeat;
+  color: #444;
+  -webkit-text-size-adjust: 100%;
+}
+#container{
+
+	background: url("images/threads.png") repeat-x 0 20px;
+	overflow: hidden;
+	height:655px;
+
+}
+#wrapper{
+
+	font-size: 18px;
+	margin: 30px auto;
+	width: 700px;
+	height: auto;
+	
+	
+}
+#title{
+	font-family: "Georgia","Arial";
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	margin: 55px 0 35px; 
+}
+#container .box{
+	width: 100%;
+	background: url("images/textBox2.png") no-repeat;
+}
+#container .form{
+	color: #444;
+	line-height: 1.5;
+}
+#container table{
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 35px; 
+	overflow: hidden;
+
+	
+}
+#container table tr{
+	height: auto;
+	background: url("images/threads.png") repeat-x left bottom;
+	overflow: hidden;
+
+}
+#container table th{
+	width:130px;
+	text-align: right;
+	margin: 0 0 0 35px;
+
+}
+#container table td{
+	width: 300px;
+	text-align: left;
+	padding-left: 50px;
+	font-weight: bold;
+	height: auto;
+}
+#container .sendForm{
+	text-align: center;
+}
+#container #contactSubmit{
+	width: 200px;
+	height: 36px;
+	color: white;
+	padding: 0;
+	margin: 35px;
+	border: none;
+	background: #eb6877;
+	border-bottom: solid red 3px; 
+	border-radius: 20px;
+	text-transform: uppercase;
+}
+#footer{
+	height: 20px;
+	background: url("images/threads.png") repeat-x ;
+}
